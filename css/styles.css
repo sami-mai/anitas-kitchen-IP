@@ -4,6 +4,7 @@
 
 .header {
   background-image: url("../img/backgrounds/landing.jpg");
+  padding: 100px;
 }
 
 .background {
@@ -11,5 +12,41 @@
 }
 
 .text {
-  color: white;
+  color: #FDFEFE;
+}
+
+#HH {
+  background-color: #FDFEFE;
+  text-align: center;
+  padding: 35px;
+  margin: 0px
+}
+
+#PT {
+  background-color: #F15A29;
+  color: #FDFEFE;
+  text-align: center;
+  padding: 35px;
+  margin: 0px
+}
+
+#breakfast {
+  background-image: url("../img/foodtop/breakfast.jpg");
+  color: #FDFEFE;
+  text-align: center;
+  padding: 85px;
+}
+
+#lunch {
+  background-image: url("../img/foodtop/lunch.jpg");
+  color: #FDFEFE;
+  text-align: center;
+  padding: 85px;
+}
+
+#dinner {
+  background-image: url("../img/foodtop/dinner.jpg");
+  color: #FDFEFE;
+  text-align: center;
+  padding: 85px;
 }
