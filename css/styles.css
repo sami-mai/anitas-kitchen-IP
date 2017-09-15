@@ -4,7 +4,7 @@
 
 .header {
   background-image: url("../img/backgrounds/landing.jpg");
-  padding: 100px;
+  padding: 130px;
 }
 
 .background {
@@ -19,7 +19,9 @@
   background-color: #FDFEFE;
   text-align: center;
   padding: 35px;
-  margin: 0px
+  /*padding-left: 10px;
+  padding-r*/
+  margin: 0px;
 }
 
 #PT {
@@ -27,7 +29,8 @@
   color: #FDFEFE;
   text-align: center;
   padding: 35px;
-  margin: 0px
+  padding-left: 10px;
+  margin: 0px;
 }
 
 #breakfast {
@@ -49,4 +52,28 @@
   color: #FDFEFE;
   text-align: center;
   padding: 85px;
+}
+
+.fastfood {
+  float: right;
+  width: 50%;
+}
+
+.jumbotron {
+  float: left;
+  width: 50%;
+}
+
+.drinks {
+  float: left;
+  width: 50%;
+}
+
+#drinks {
+  float: right;
+  width: 50%;
+}
+
+.main-section {
+  margin: 50px;
 }
