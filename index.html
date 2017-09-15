@@ -14,12 +14,22 @@
 
   <header>
     <div class="header">
-      <img id="background" src="img/backgrounds/landing.jpg" alt="background image">
-      <img id="logo" src="img/logoBig.png" alt="logo">
-      <button class="hamburger" type="button" name="button"></button>
-      <p>We Provide The Best Food</p>
-      <p>At The <strong>Right Price</strong></p>
 
+      <div class="hamburger">
+        <button class="hamburger" type="button" name="button"></button>
+      </div>
+
+      <div class="background">
+
+        <div class="logo">
+          <img id="logo" src="img/logoBig.png" alt="logo">
+        </div>
+        <div class="text">
+          <p>We Provide The Best Food</p>
+          <p>At The <strong>Right Price</strong></p>
+        </div>
+
+      </div>
     </div>
   </header>
 
@@ -28,8 +38,14 @@
       <div class="container">
         <div class="rows">
           <div class="col-md-3">
-            <p>Happy Hour</p>
-            <p>Party Time</p>
+            <div class="rows">
+              <div class="col-md-12">
+                <p>Happy Hour</p>
+              </div>
+              <div class="col-md-12">
+                <p>Party Time</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-3">
             <p>Breakfast</p>
@@ -99,13 +115,13 @@
 
       </div>
       <div class="container">
-        <h1>Fill in the blanks to write your story!</h1>
+        <h2>Get your daily food items delivered to your email</h2>
         <div id="blanks">
           <form>
             <div class="form-group">
-              <label for="email">Your email</label>
-              <input id="email" class="form-control" type="text">
+              <input id="email" class="form-control" placeholder="Your email" type="text">
             </div>
+            <button type="submit" class="btn">Subscribe</button>
           </form>
         </div>
       </div>
