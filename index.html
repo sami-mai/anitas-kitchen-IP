@@ -15,12 +15,10 @@
 
   <header>
     <div class="header">
-      <button type="button" class="btn btn-default" aria-label="hamburger">
+      <button id="hambuger" type="button" class="btn btn-default" aria-label="hamburger">
         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
       </button>
-
-      <div class="background">
-
+      <div class="head-content">
         <div class="logo">
           <img id="logo" src="img/logoBig.png" alt="logo">
         </div>
@@ -28,7 +26,6 @@
           <p>We Provide The Best Food</p>
           <p>At The <strong>Right Price</strong></p>
         </div>
-
       </div>
     </div>
   </header>
@@ -99,12 +96,48 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <img src="img/backgrounds/foodsBg.jpg" alt="foodsBg">
-      <img src="img/fastfood/chickenBurger.jpg" alt="chickenBurger">
-      <img src="img/fastfood/beefBurger.jpg" alt="beefBurger">
-      <img src="img/fastfood/chickenPizza.jpg" alt="chickenPizza">
+
+    <div class="section2">
+      <div id="foods-tab" class="container">
+        <div id="tabs" class="container">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#fastFood" aria-controls="home" role="tab" data-toggle="tab">Fast Food</a></li>
+            <li role="presentation"><a href="#drink" aria-controls="profile" role="tab" data-toggle="tab">Drinks</a></li>
+            <li role="presentation"><a href="#chicken" aria-controls="messages" role="tab" data-toggle="tab">Chicken</a></li>
+            <li role="presentation"><a href="#rice" aria-controls="settings" role="tab" data-toggle="tab">Rice</a></li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="fastFood">
+              <div class="row">
+
+                <div class="col-md-4">
+                  <a href="#" class="thumbnail">
+                <img src="img/fastfood/chickenBurger.jpg" alt="chickenBurger">
+                </a>
+                </div>
+                <div class="col-md-4">
+                  <a href="#" class="thumbnail">
+                <img src="img/fastfood/beefBurger.jpg" alt="beefBurger">
+                </a>
+                </div>
+                <div class="col-md-4">
+                  <a href="#" class="thumbnail">
+                <img src="img/fastfood/chickenPizza.jpg" alt="chickenPizza">
+                </a>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="drink"></div>
+              <div role="tabpanel" class="tab-pane" id="chicken"></div>
+              <div role="tabpanel" class="tab-pane" id="rice"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="container">
       <div class="rows">
         <div class="col-md-8">

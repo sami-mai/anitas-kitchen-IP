@@ -3,17 +3,16 @@ html {
   font-family: "Arvo", serif;
 }
 
-
-/*.hamburger {
+#hamburger {
   text-align: left;
-}*/
+}
 
 .header {
   background-image: url("../img/backgrounds/landing.jpg");
   padding: 130px;
 }
 
-.background {
+.head-content {
   text-align: center;
 }
 
@@ -98,4 +97,24 @@ html {
   margin-right: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.section2 {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  /*padding: 10px;*/
+}
+
+#foods-tab {
+  padding: 100px;
+  text-align: center;
+}
+
+#tabs {
+  background-color: #FDFEFE;
+  padding: 10px;
+  text-align: center;
+}
+
+.thumbnail {
+  padding: 10px;
 }
