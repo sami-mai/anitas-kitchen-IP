@@ -3,9 +3,10 @@ html {
   font-family: "Arvo", serif;
 }
 
-.hamburger {
+
+/*.hamburger {
   text-align: left;
-}
+}*/
 
 .header {
   background-image: url("../img/backgrounds/landing.jpg");
