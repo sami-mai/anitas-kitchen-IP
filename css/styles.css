@@ -1,3 +1,8 @@
+html {
+  font: "slab" serif;
+  font-family: "Arvo", serif;
+}
+
 .hamburger {
   text-align: left;
 }
@@ -54,14 +59,27 @@
   padding: 85px;
 }
 
-.fastfood {
+#fastfood {
   float: right;
-  width: 50%;
+  width: 40%;
+  margin: 60px;
+  text-align: left;
 }
 
-.jumbotron {
+#FF {
   float: left;
-  width: 50%;
+  width: 40%;
+  margin: 30px;
+  text-align: center;
+  background-color: #FDFEFE;
+}
+
+#viewGallery {
+  color: #F15A29;
+  border-color: #F15A29;
+  background-color: #FDFEFE;
+  padding: 10px;
+  padding-right: 20px;
 }
 
 .drinks {
@@ -71,7 +89,7 @@
 
 #drinks {
   float: right;
-  width: 50%;
+  width: 40%;
 }
 
 .main-section {
