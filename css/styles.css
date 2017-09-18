@@ -20,12 +20,14 @@ html {
   color: #FDFEFE;
 }
 
+.happyParty {
+  padding: 0px;
+}
+
 #HH {
   background-color: #FDFEFE;
   text-align: center;
   padding: 35px;
-  /*padding-left: 10px;
-  padding-r*/
   margin: 0px;
 }
 
