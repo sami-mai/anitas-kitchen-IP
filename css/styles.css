@@ -127,6 +127,15 @@ html {
   font-size: 12;
 }
 
+#email {
+  width: 500px;
+}
+
+.subscribe {
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  padding: 100px;
+}
+
 .footer {
   background-color: #F15A29;
   padding: 30px;
